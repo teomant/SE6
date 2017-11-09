@@ -58,7 +58,7 @@ public class GUI extends JFrame {
                         {
                             CustomPanel panel = new CustomPanel();
                             panel.setBorder(BorderFactory.createLineBorder(Color.BLACK,3));
-                            panel.setPreferredSize(new Dimension(53*i+10,40));
+                            panel.setPreferredSize(new Dimension(60*i+10,40));
                             panel.setLayout(new FlowLayout(FlowLayout.LEADING, 3, 7));
                             panel.setName(floors[floors.length-1-i].toString());
                             for (int j=0;j<floors[floors.length-1-i].getSpacesNumber();j++)
